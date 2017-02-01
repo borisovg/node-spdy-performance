@@ -24,3 +24,11 @@ test:
 	sleep 1
 	h2load -n100000 -c100 -m10 https://localhost:8443/test.html || true
 	curl -k https://localhost:8443/exit
+
+http1:
+	# browse to https://localhost:8443/test.html
+	node http1.js
+
+http2:
+	# browse to https://localhost:8443/test.html
+	node http2.js
