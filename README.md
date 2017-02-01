@@ -1,6 +1,12 @@
 # node-spdy performance test
 
-## Usage
+## Requirements
+
+* curl
+* make
+* h2load
+
+## Running the Tests
 
 ```
 make
