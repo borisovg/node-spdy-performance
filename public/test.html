@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Test Page</title>
+        <!--
+        <link rel="stylesheet" href="/lib/bootstrap/dist/css/bootstrap.min.css">
+        -->
+    </head>
+    <body>
+        <div class="navbar navbar-default navbar-static-top">
+            <div class="container-fluid">
+                <span class="navbar-brand">Test Page</span>
+            </div>
+        </div>
+        <div class="container" ng-controller="mainCtrl">
+            <div class="page-header">
+                <h1>Test Page</h1>
+            </div>
+            <p ng-hide="loaded">
+                <img src="/img/loader.gif">
+            </p>
+        </div>
+        <script src="/lib/angular/angular.min.js"></script>
+        <script src="/js/app.js"></script>
+    </body>
+</html>

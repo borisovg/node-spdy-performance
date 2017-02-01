@@ -1,0 +1,8 @@
+{
+  "private": true,
+  "dependencies": {
+    "angular": "1.6.1",
+    "bootstrap": "3.3.7",
+    "spdy": "3.4.4"
+  }
+}
